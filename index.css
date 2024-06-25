@@ -1,0 +1,114 @@
+
+/* det som kommer sist får högst specificitet (prioritet)*/
+/* added specificity element, class, id for highest specificity */
+/* try to keep the same order between element in html and css docs */
+
+/* * = generell för alla element */
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: Arial;
+    max-width: fit-content;
+}
+
+nav {
+    font-family: 'Courier New';
+}
+
+
+
+p {
+    width: 600px;
+    
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+
+ul {
+}
+
+li.ingredientList{
+    border-top: 3px dotted #ddd;
+}
+ol {
+    width: 600px;
+}
+
+h1{
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+h3.legendText{
+    background-color: aqua;
+}
+
+legend {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section.leftaligned {
+    margin-right: 0px;
+    margin-left: auto;
+    background-color: red;
+}
+
+fieldset {
+    width: 50%;
+}
+/* ##########  Samples from lesson   ############# */
+
+/* high specificity sample*/
+/*
+p.box-3#idnamn{
+
+}
+
+.box-3 {
+    background-color: fuchsia;
+
+}
+
+.box {
+    font-size: 20px;
+    cursor: crosshair;
+}
+*/
+
+
+
+/* rgba sätter transparens på slutet 0-1 rgba(0,0,0, 0.3)*/
+article {
+    background-color: aqua !important;
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.box-1 {
+    border: 2px solid red; /* dashed double etc */
+    width: 200px;
+    box-sizing: border-box; /* change to specify px to hit border size */
+}
+
+/* display */
+/* a { 
+    display: block ; /* block inline (not height, width), inline-block (allow height n width), none (remove from screen), flex, grid */
+/* }  */
+
+/* colors 
+RGB
+hex code
+name*/
